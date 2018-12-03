@@ -2,11 +2,11 @@ import Foundation
 
 func finalFrequency(frequencyDeltas: [Int]) -> Int {
   var currentFrequency = 0
-  
+
   for delta in frequencyDeltas {
     currentFrequency += delta
   }
-  
+
   return currentFrequency
 }
 
